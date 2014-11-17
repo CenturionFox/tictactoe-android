@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <string name="app_desc">Programming and Design by Bridger Maskrey\n(bem9@students.pti.edu)\nVersion </string>
+    <string name="app_name">Tic Tac Toe</string>
+    <string name="app_version">0.1.0</string>
+    <string name="area_played">This area has already been played.</string>
+    <string name="draw_reached">The game ended in a draw!</string>
+    <string name="exit">Exit the Game</string>
+    <string name="game_over">The game has already been won.</string>
+    <string name="game_win_dialog">Game Over!</string>
+    <string name="info">About…</string>
+    <string name="o_player">O</string>
+    <string name="player_win"> has won the game!</string>
+    <string name="rate">Rate!</string>
+    <string name="restart">Restart the Game</string>
+    <string name="return_to_game">Return</string>
+    <string name="x_player">X</string>
+</resources>

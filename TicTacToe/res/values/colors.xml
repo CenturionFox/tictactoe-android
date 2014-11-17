@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="x_player_color">#FFDD1414</color>
+    <color name="o_player_color">#FF1414DD</color>
+    <color name="black">#FF000000</color>
+</resources>

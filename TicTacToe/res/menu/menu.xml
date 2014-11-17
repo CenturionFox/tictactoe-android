@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+    <!--    android:showAsAction="ifRoom"
+            android:icon="@drawable/ic_about" -->
+	<group android:id="@+id/actionBar">
+	    <item android:id="@+id/replay"
+            android:title="@string/restart"
+            android:orderInCategory="1"
+            android:onClick="restart"
+            />
+		<item android:id="@+id/about"
+            android:title="@string/info"
+            android:orderInCategory="2"
+            android:onClick="about"
+            />
+		<item android:id="@+id/exit"
+            android:title="@string/exit"
+            android:orderInCategory="3"
+            android:onClick="exit"
+            />
+	</group>
+    
+</menu>

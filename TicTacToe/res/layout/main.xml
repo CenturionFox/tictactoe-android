@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     style="@style/table_theme"
+     android:layout_width="fill_parent"
+     android:layout_height="fill_parent"
+     android:stretchColumns="0,1,2"
+     android:orientation="vertical" >
+    
+    <!-- Row 1 -->
+    <TableRow android:paddingTop="10dp">
+        
+        <Button
+            style="@style/button"
+            android:id="@+id/button11"
+            android:gravity="center"
+            android:onClick="buttonEventHandler"/>
+        <Button
+            style="@style/button"
+            android:id="@+id/button12"
+            android:gravity="center"
+            android:onClick="buttonEventHandler"/>
+        <Button
+            style="@style/button"
+            android:id="@+id/button13"
+            android:gravity="center"
+            android:onClick="buttonEventHandler"/>
+        
+    </TableRow>
+    
+    <TableRow>
+        
+        <Button 
+            style="@style/button"
+            android:id="@+id/button21"
+            android:gravity="center"
+            android:onClick="buttonEventHandler"/>
+        <Button 
+            style="@style/button"
+            android:id="@+id/button22"
+            android:gravity="center"
+            android:onClick="buttonEventHandler"/>
+        <Button 
+            style="@style/button"
+            android:id="@+id/button23"
+            android:gravity="center"
+            android:onClick="buttonEventHandler"/>
+        
+    </TableRow>
+    
+    <TableRow>
+        
+        <Button
+            android:id="@+id/button31"
+            style="@style/button"
+            android:gravity="center"
+            android:onClick="buttonEventHandler" />
+
+        <Button 
+            style="@style/button"
+            android:id="@+id/button32"
+            android:gravity="center"
+            android:onClick="buttonEventHandler"/>
+        <Button 
+            style="@style/button"
+            android:id="@+id/button33"
+            android:gravity="center"
+            android:onClick="buttonEventHandler"/>
+        
+    </TableRow>
+
+    
+</TableLayout>

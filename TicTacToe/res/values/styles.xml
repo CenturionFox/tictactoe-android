@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <style name="button">
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_height">@dimen/button_size</item>
+        <item name="android:layout_width">@dimen/button_size</item>
+        <item name="android:layout_margin">@dimen/bump_margin</item>
+        <item name="android:textSize">@dimen/text_size</item>
+        <item name="android:background">@drawable/button_state</item>
+    </style>
+    <style name="button_land">
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_height">@dimen/button_size_land</item>
+        <item name="android:layout_width">@dimen/button_size</item>
+        <item name="android:layout_margin">@dimen/bump_margin</item>
+        <item name="android:textSize">@dimen/text_size</item>
+        <item name="android:background">@drawable/button_state</item>
+    </style>
+    <style name="table_theme">
+        <item name="android:background">@drawable/background</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+</resources>
